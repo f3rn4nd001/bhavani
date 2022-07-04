@@ -1,0 +1,90 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+.suptitulo{
+    font-size: 18px!important;
+}
+.cartasubtitulo{
+    width: 20rem; border-color: transparent; background-color:transparent;
+}
+.justify{
+  text-align: justify;
+}
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("../assets/index.png");
+  height: 800px;
+}
+.fonman{
+  background-image: url("../assets/fondomnos.jfif");
+  background-position: center;
+  background-size: cover;
+}
+
+.text-center{
+    text-align: center;
+}
+.pocicionbi{
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    transform: translate(0%,-50%);
+}
+.w3-bar .w3-button {
+  padding: 16px;
+}   
+
+
+
+
+
+.navigation {
+  width: 300px;
+}
+
+.mainmenu, .submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mainmenu a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.mainmenu a:hover {
+}
+
+
+
+.mainmenu li:hover .submenu {
+  display: block;
+  max-height: 200px;
+}
+
+
+.submenu a {
+}
+
+.submenu a:hover {
+}
+
+.submenu {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: all 0.5s ease-out;
+}
+
+:root{
+  --bg-maron:#a67658;
+}
+.bg-maron{
+  background-color: var( --bg-maron);
+}

@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'frontend';
+    
+  public mostrar= true;
+    
+  w3_close() {
+    this.mostrar = true     
+  }
+  w3_open() {
+    this.mostrar = false  
+  } 
+
 }
